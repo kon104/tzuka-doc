@@ -81,6 +81,14 @@ CSV形式で一行あたり ``小学校区名,数値`` の書式で、小学校�
 ヒートマップ作成手順
 ======================
 
+QGIS起動
+--------
+
+Windows のスタートメニューから、プログラムi ＞ QGIS ＞ QGIS Desktop で起動します
+
+.. image:: ./image/qgis-heatmap/win7start-qgis.png
+   :scale: 75%
+
 市全体のシェイプを読み込む
 --------------------------
 
@@ -169,4 +177,9 @@ CSV形式で一行あたり ``小学校区名,数値`` の書式で、小学校�
 ヒートマップが完成しました
 
 .. image:: ./image/qgis-heatmap/qgis-completion.png
+
+メニューから画像として出力もできます
+
+.. image:: ./image/qgis-heatmap/qgis-save-img.png
+   :scale: 75%
 
